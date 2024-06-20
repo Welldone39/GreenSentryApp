@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/language"
+        android:title="@string/language"
+        android:icon="@drawable/img_language"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/Donasi"
+        android:title="@string/Donasi"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Logout"
+        android:title="@string/Logout"
+        app:showAsAction="never"/>
+
+</menu>

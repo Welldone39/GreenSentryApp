@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ProgressBarStyle">ProgressBar</style>
+
+    <style name="AppBarOverlay">
+        <item name="android:background">@color/dark_green</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- Other AppBar specific attributes -->
+    </style>
+</resources>
