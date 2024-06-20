@@ -11,10 +11,6 @@
 - Google Compute Engine
 - Google Cloud Run
 
-## Cloud Computing Team Member
-- Muhammad Burhanudin           C131D4KY0735
-- Muhammad Rizky Ramadhana      C009D4KY0352
-
 ## Instalation
 1. Make a Project in Google Cloud Platform
 2. Link a Project to Billing Account
@@ -29,3 +25,7 @@
 8. Implement JWT Authentication on that API
 9. Build Dockerfile
 10. Deploy using Cloud Run
+
+## Cloud Computing Team Member
+- Muhammad Burhanudin           C131D4KY0735
+- Muhammad Rizky Ramadhana      C009D4KY0352
