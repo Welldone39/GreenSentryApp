@@ -9,11 +9,6 @@ create table action_list(
 	primary key(id)
 );
 
---alter table action_list 
---add source varchar(100) not null;
-
---alter table action_list rename column source to news_source;
-
 
 -- 1
 insert into action_list (author, news_source, title, description, url, url_to_image)
@@ -137,8 +132,6 @@ values
 	'https://cdn1-production-images-kly.akamaized.net/Wx_0lx4y9FwRjzO96WdFjleUiG0=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4190910/original/040156900_1665662640-WhatsApp_Image_2022-10-13_at_18.59.40.jpeg'
 );
 
-select * from action_list;
-
 ---------------------------------------------------------------------------
 -- Creating Users table --
 
@@ -153,6 +146,3 @@ create table users(
 
 -- create index for id and email column on users table
 create index id_email_index on users(id, email);
-
-select * from users;
-
